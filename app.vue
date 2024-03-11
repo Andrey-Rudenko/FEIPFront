@@ -14,6 +14,7 @@
   padding: 0;
 }
 :root {
+  font-size: 30px;
   --font-title: Montserrat, sans-serif;
   --font-text: Open Sans, sans-serif;
 

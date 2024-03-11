@@ -1,7 +1,7 @@
 <template>
   <div class="footerMain">
     <footer>
-      <h1>Footer</h1>
+      <p>Footer</p>
     </footer>
   </div>
 </template>
@@ -15,6 +15,7 @@
     max-width: 1100px;
     margin: auto;
     line-height: 10vh;
+    font-size: 40px;
   }
   .footerMain {
     background-color: #A4A4A4;

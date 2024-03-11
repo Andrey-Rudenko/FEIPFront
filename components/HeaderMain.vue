@@ -15,6 +15,7 @@
     max-width: 1100px;
     margin: auto;
     line-height: 10vh;
+    font-size: 20px;
   }
   .headerMain {
     background-color: #98D0F9;
