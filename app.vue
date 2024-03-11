@@ -1,10 +1,22 @@
 <template>
-  <div>
-    <!-- <NuxtWelcome /> -->
-    <HelloWorld />
-  </div>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
 
+<script lang="ts" setup>
+
+</script>
+
 <style lang="scss">
-@use "~/assets/scss/main.scss";
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --font-title: Montserrat, sans-serif;
+  --font-text: Open Sans, sans-serif;
+
+  font-family: var(--font-text);
+}
 </style>
